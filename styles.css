@@ -1,9 +1,9 @@
 :root {
-  --black: #272838;
-  --green: #5b9279;
-  --violet: #5d536b;
-  --purple: #eae6e5;
-  --light: #8fcb9b;
+  --color1: #00171F;
+  --color2: #CBF7ED;
+  --color3: #007EA7;
+  --color4: #FFFFFF;
+  --color5: #83A0A0;
 }
 
 /*To make the content stick to the sides*/
@@ -24,12 +24,13 @@ main {
 }
 /* qualities of main*/
 main {
-  background-color: var(--green);
+  background-color: var(--color2);
+  color: var(--color1);
 }
 
 /* qualities of footer*/
 footer {
-  background-color: var(--light);
+  background-color: var(--color4);
   width: 100vw;
   position: absolute;
   top: 100%;
@@ -37,8 +38,8 @@ footer {
 
 /* qualities of header*/
 header {
-  background-color: var(--violet);
-  color: var(--purple);
+  background-color: var(--color5);
+  color: var(--color1);
   position: relative;
   top: 0%;
   left: 0%;
