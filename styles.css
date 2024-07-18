@@ -1,14 +1,64 @@
-/*okay yeah now it makes sense
-never edit css without adding the content or you will suffer really badly its really hard to understand
-what the fuck went wrong when there is no content*/
-/*i want most of the things in center so im giving this right now will change it later*/
+:root {
+  --black: #272838;
+  --green: #5b9279;
+  --violet: #5d536b;
+  --purple: #eae6e5;
+  --light: #8fcb9b;
+}
+
+/*To make the content stick to the sides*/
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  font-size: 10px; /*make the font standard*/
+}
+
 header,
 footer,
 main {
-  background-color: aliceblue;
-  color: black;
   display: grid;
   align-items: center;
   justify-content: center;
 }
-/*next i'll have to think what changes to make*/
+/* qualities of main*/
+main {
+  background-color: var(--green);
+}
+
+/* qualities of footer*/
+footer {
+  background-color: var(--light);
+  width: 100vw;
+  position: absolute;
+  top: 100%;
+}
+
+/* qualities of header*/
+header {
+  background-color: var(--violet);
+  color: var(--purple);
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+}
+
+/*Edit of the H1 tag*/
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.intro {
+  font-size: 1.8rem;
+}
+
+.heading {
+  font-size: 3.2rem;
+}
+
+.contact {
+  font-size: 2.6rem;
+}
