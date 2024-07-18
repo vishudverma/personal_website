@@ -1,3 +1,14 @@
-* {
-    display: grid;
+/*okay yeah now it makes sense
+never edit css without adding the content or you will suffer really badly its really hard to understand
+what the fuck went wrong when there is no content*/
+/*i want most of the things in center so im giving this right now will change it later*/
+header,
+footer,
+main {
+  background-color: aliceblue;
+  color: black;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
+/*next i'll have to think what changes to make*/
