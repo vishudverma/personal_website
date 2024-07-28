@@ -107,8 +107,12 @@ hr {
 }
 
 footer {
-  background: #066f729f;
+  background: #066f727f;
   /*   background: rgba(255, 255, 255, 0.9); */
+}
+
+.mail_to {
+  color: #fff;
 }
 
 footer p {
