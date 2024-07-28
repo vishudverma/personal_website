@@ -25,10 +25,11 @@ h6 {
   letter-spacing: 1px;
 }
 
+/*color of the font wihtin the long-long paragraphs*/
 p {
   font-size: 1.25em;
   line-height: 1.6;
-  color: #000;
+  color: #fff;
 }
 
 hr {
@@ -77,11 +78,13 @@ hr {
   border-color: #999999;
 }
 
+/*background for the boxes and color of the heading within the boxes*/
 .box {
   margin-bottom: 20px;
   padding: 30px 15px;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.9);
+  background: #14213d99;
+  /*background: rgba(255, 255, 255, 0.9); disrupting the final output*/
+  color: #fff;
 }
 
 .intro-text {
@@ -103,15 +106,15 @@ hr {
 }
 
 footer {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.9);
+  background: #14213d99;
+/*   background: rgba(255, 255, 255, 0.9); */
 }
 
 footer p {
   margin: 0;
   padding: 50px 0;
 }
-/* use #14213d for text color in your name*/
+/* use #fff for text color in your name*/
 @media screen and (min-width: 768px) {
   .brand {
     display: inherit;
@@ -123,7 +126,7 @@ footer p {
     font-size: 5em;
     font-weight: 700;
     line-height: normal;
-    color: #14213d;
+    color: #fff;
   }
 
   .top-divider {
@@ -145,7 +148,7 @@ footer p {
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 3px;
-    color: #14213d;
+    color: #fff;
   }
 
   .navbar {
