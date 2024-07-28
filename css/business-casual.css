@@ -115,6 +115,10 @@ footer p {
   margin: 0;
   padding: 50px 0;
 }
+
+a {
+  text-decoration: none;
+}
 /* use #fff for text color in your name*/
 @media screen and (min-width: 768px) {
   .brand {
@@ -175,7 +179,6 @@ footer p {
 
   .navbar-nav > li > a {
     line-height: normal;
-    color: #fff;
   }
 
   .navbar-nav {
@@ -184,7 +187,6 @@ footer p {
     margin: 0 auto;
     table-layout: fixed;
     font-size: 1.3em;
-    color: #fff;
   }
 }
 
