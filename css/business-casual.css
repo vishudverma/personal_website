@@ -6,7 +6,7 @@
 
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: url("../img/cooler-bg.png") no-repeat center center fixed;
+  background: url("../img/Bg3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -25,7 +25,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-/*color of the font wihtin the long-long paragraphs*/
+/*color of the font within the long-long paragraphs*/
 p {
   font-size: 1.25em;
   line-height: 1.6;
@@ -82,7 +82,7 @@ hr {
 .box {
   margin-bottom: 20px;
   padding: 30px 15px;
-  background: #14213d99;
+  background: #14213dcf;
   /*background: rgba(255, 255, 255, 0.9); disrupting the final output*/
   color: #fff;
 }
@@ -107,7 +107,7 @@ hr {
 
 footer {
   background: #14213d99;
-/*   background: rgba(255, 255, 255, 0.9); */
+  /*   background: rgba(255, 255, 255, 0.9); */
 }
 
 footer p {
