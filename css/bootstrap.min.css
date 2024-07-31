@@ -4089,7 +4089,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:focus,
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #f298b459;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4104,7 +4104,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:focus,
 .nav .open > a:hover {
-  background-color: #eee;
+  background-color: #f298b459;
   border-color: #337ab7;
 }
 .nav .nav-divider {
@@ -4137,7 +4137,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover {
   color: #555;
   cursor: default;
-  background-color: #fff;
+  background-color: #f298b459;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
